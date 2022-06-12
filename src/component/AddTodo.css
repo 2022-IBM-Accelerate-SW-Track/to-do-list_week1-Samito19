@@ -1,0 +1,32 @@
+.add-to-do-container {
+  display: flex;
+  background-color: white;
+  height: 40%;
+  width: 80%;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgb(48, 48, 48);
+  position: sticky;
+}
+
+.add-to-do-container-input {
+  margin-left: 2.5%;
+  outline: none;
+  border: none;
+  width: 90%;
+}
+
+.add-to-do-container-button {
+  margin-left: auto;
+  background-color: rgb(17, 134, 17);
+  height: 100%;
+  width: 15%;
+  border: none;
+  border-left: 1px solid black;
+  color: white;
+  font-size: 2vh;
+  font-weight: 550;
+  cursor: pointer;
+}
+

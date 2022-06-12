@@ -1,4 +1,35 @@
 .Home {
+  display: flex;
+  flex-direction: column;
   background-color: ghostwhite;
-  height: 100vh;
+  height: 94vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-todo-list-title {
+  font-size: 5vh;
+  font-weight: 550;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Home-todos-container {
+  height: 80%;
+  width: 40%;
+  margin-top: 1.5%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: white;
+}
+
+.Home-add-todo-container {
+  display: flex;
+  height: 20%;
+  width: 100%;
+  background-color: rgb(48, 48, 48);
+  align-items: center;
+  justify-content: center;
 }
