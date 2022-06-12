@@ -1,0 +1,37 @@
+.tech-stack-container {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 100%;
+  margin-left: 5%;
+}
+
+.tech-stack-prog-lang {
+  margin-top: 6%;
+  font-family: "Jacques Francois Shadow", cursive;
+  margin-right: auto;
+}
+
+.prog-lang-imgs {
+  display: flex;
+  height: 25%;
+  width: 100%;
+  margin-top: 3%;
+}
+
+.prog-lang-img {
+  height: 75%;
+  margin-right: 4%;
+}
+
+.tech-stack-frameworks {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  font-family: "Jacques Francois Shadow", cursive;
+  margin-right: auto;
+}
+
+.express-img {
+  height: 100%;
+}
